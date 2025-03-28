@@ -1,0 +1,45 @@
+body {
+    width: 300px;  /* Increase width */
+    height: 400px; /* Increase height */
+    text-align: center;
+    font-family: "Merriweather", serif;
+    background-color: azure;
+}
+
+button {
+    background-color: #970101;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;  
+}
+
+login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 10px;
+}
+.p{
+    font-family: "Merriweather", serif;
+}
+.h1{
+    font-family: "Merriweather", serif;
+}
+login-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 10px;
+    padding: 20px;
+}
