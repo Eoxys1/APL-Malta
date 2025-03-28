@@ -1,0 +1,7 @@
+body {
+    width: 300px;  /* Increase width */
+    height: 500px; /* Increase height */
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    background-color: azure;
+}

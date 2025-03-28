@@ -1,45 +1,72 @@
 body {
     width: 300px;  /* Increase width */
-    height: 400px; /* Increase height */
+    height: 500px; /* Increase height */
     text-align: center;
-    font-family: "Merriweather", serif;
-    background-color: azure;
+    font-family: "poppins", sans-serif;
+
+}
+.container {
+    text-align: center;
 }
 
 button {
-    background-color: #970101;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #f7d3d3;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+    box-shadow: black 0px 0px 10px;
+}
+
+#login-form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 90%;
+}
+
+#login-form button {
+    background-color: #00c817;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 5px;
+    font-size: 16px;
 }
 
-button:hover {
-    background-color: #0056b3;  
+#login-form button[type="button"] {
+    background-color: red;
 }
 
-login-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    margin: 10px;
-}
-.p{
-    font-family: "Merriweather", serif;
-}
-.h1{
-    font-family: "Merriweather", serif;
-}
-login-btn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    margin: 10px;
-    padding: 20px;
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
 }
